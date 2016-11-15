@@ -1,0 +1,206 @@
+{
+	"files": {
+		"style-main.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style-main.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false
+					}
+				}
+			],
+			"sources": [
+				"less-bootstrap/mixins.less",
+				"less-bootstrap/mixins/alerts.less",
+				"less-bootstrap/mixins/background-variant.less",
+				"less-bootstrap/mixins/border-radius.less",
+				"less-bootstrap/mixins/buttons.less",
+				"less-bootstrap/mixins/center-block.less",
+				"less-bootstrap/mixins/clearfix.less",
+				"less-bootstrap/mixins/forms.less",
+				"less-bootstrap/mixins/gradients.less",
+				"less-bootstrap/mixins/grid-framework.less",
+				"less-bootstrap/mixins/grid.less",
+				"less-bootstrap/mixins/hide-text.less",
+				"less-bootstrap/mixins/image.less",
+				"less-bootstrap/mixins/labels.less",
+				"less-bootstrap/mixins/list-group.less",
+				"less-bootstrap/mixins/nav-divider.less",
+				"less-bootstrap/mixins/nav-vertical-align.less",
+				"less-bootstrap/mixins/opacity.less",
+				"less-bootstrap/mixins/pagination.less",
+				"less-bootstrap/mixins/panels.less",
+				"less-bootstrap/mixins/progress-bar.less",
+				"less-bootstrap/mixins/reset-filter.less",
+				"less-bootstrap/mixins/reset-text.less",
+				"less-bootstrap/mixins/resize.less",
+				"less-bootstrap/mixins/responsive-visibility.less",
+				"less-bootstrap/mixins/size.less",
+				"less-bootstrap/mixins/tab-focus.less",
+				"less-bootstrap/mixins/table-row.less",
+				"less-bootstrap/mixins/text-emphasis.less",
+				"less-bootstrap/mixins/text-overflow.less",
+				"less-bootstrap/mixins/vendor-prefixes.less",
+				"less-bootstrap/variables.less",
+				"less-happy-wedding/about.less",
+				"less-happy-wedding/blog.less",
+				"less-happy-wedding/box-hover-effect.less",
+				"less-happy-wedding/boxed-layout.less",
+				"less-happy-wedding/common.less",
+				"less-happy-wedding/contact.less",
+				"less-happy-wedding/couple.less",
+				"less-happy-wedding/event.less",
+				"less-happy-wedding/extra.less",
+				"less-happy-wedding/footer.less",
+				"less-happy-wedding/form.less",
+				"less-happy-wedding/header.less",
+				"less-happy-wedding/home.less",
+				"less-happy-wedding/inner-header-title.less",
+				"less-happy-wedding/job.less",
+				"less-happy-wedding/menu-full-page.less",
+				"less-happy-wedding/mixins.less",
+				"less-happy-wedding/nav.less",
+				"less-happy-wedding/overlay.less",
+				"less-happy-wedding/portfolio-gallery.less",
+				"less-happy-wedding/rsvp.less",
+				"less-happy-wedding/services.less",
+				"less-happy-wedding/shop.less",
+				"less-happy-wedding/shortcodes.less",
+				"less-happy-wedding/shortcodes/alerts.less",
+				"less-happy-wedding/shortcodes/blockquote.less",
+				"less-happy-wedding/shortcodes/buttons.less",
+				"less-happy-wedding/shortcodes/clients.less",
+				"less-happy-wedding/shortcodes/countdown-timer.less",
+				"less-happy-wedding/shortcodes/countdown.less",
+				"less-happy-wedding/shortcodes/dividers.less",
+				"less-happy-wedding/shortcodes/facebook-disqus-comments.less",
+				"less-happy-wedding/shortcodes/faqs.less",
+				"less-happy-wedding/shortcodes/flex-slider.less",
+				"less-happy-wedding/shortcodes/flip-box.less",
+				"less-happy-wedding/shortcodes/font-icons.less",
+				"less-happy-wedding/shortcodes/funfacts.less",
+				"less-happy-wedding/shortcodes/icon-box.less",
+				"less-happy-wedding/shortcodes/infinitescroll.less",
+				"less-happy-wedding/shortcodes/instagram.less",
+				"less-happy-wedding/shortcodes/lightbox.less",
+				"less-happy-wedding/shortcodes/map.less",
+				"less-happy-wedding/shortcodes/pegination.less",
+				"less-happy-wedding/shortcodes/pricing.less",
+				"less-happy-wedding/shortcodes/process-steps.less",
+				"less-happy-wedding/shortcodes/progress-bar.less",
+				"less-happy-wedding/shortcodes/promo.less",
+				"less-happy-wedding/shortcodes/section-title.less",
+				"less-happy-wedding/shortcodes/separators.less",
+				"less-happy-wedding/shortcodes/social-icons.less",
+				"less-happy-wedding/shortcodes/tabs.less",
+				"less-happy-wedding/shortcodes/team.less",
+				"less-happy-wedding/shortcodes/testimonials.less",
+				"less-happy-wedding/shortcodes/toggles-accordions.less",
+				"less-happy-wedding/shortcodes/vertical-timeline.less",
+				"less-happy-wedding/shortcodes/working-process.less",
+				"less-happy-wedding/side-push-panel.less",
+				"less-happy-wedding/sliders.less",
+				"less-happy-wedding/story.less",
+				"less-happy-wedding/table-of-content.less",
+				"less-happy-wedding/topbar.less",
+				"less-happy-wedding/typography.less",
+				"less-happy-wedding/variables.less",
+				"less-happy-wedding/vertical-nav.less",
+				"less-happy-wedding/widgets.less"
+			]
+		},
+		"style-main-dark.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style-main-dark.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false
+					}
+				}
+			],
+			"sources": [
+				"less-happy-wedding/variables.less"
+			]
+		},
+		"less-theme-color/theme-skin-color.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-red.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-happy-wedding/variables.less",
+				"../less-bootstrap/mixins/opacity.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/nav-divider.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/responsive-visibility.less"
+			]
+		},
+		"style-main-rtl-extra.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style-main-rtl-extra.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": false
+					}
+				}
+			],
+			"sources": []
+		}
+	}
+}
