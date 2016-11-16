@@ -1,0 +1,89 @@
+/*
+ * Shortcode: Testimonials.less
+ * -----------------------------------------------
+*/
+.testimonial {
+  .item {
+    border: 1px solid @gray-lightgray;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    .thumb {
+      max-width: 55px;
+    }
+
+    &::after {
+      display: inline-block;
+      height: 150px;
+      left: -45px;
+      position: absolute;
+      top: -45px;
+      .rotate(45deg);
+      width: 60px;
+    }
+
+    &::before {
+      content: "\f10e";
+      color: @white-base;
+      display: inline-block;
+      font-family: fontawesome;
+      font-size: 16px;
+      font-style: normal;
+      left: 10px;
+      position: absolute;
+      text-align: center;
+      top: 5px;
+      z-index: @zindex-testimonial;
+    }
+  }  
+}
+
+/*------------- Best People --------------*/
+.best-people {
+  &:hover {
+    .info {
+      background-color: fade(@white-base, 90%)
+    }
+  }
+  
+  .thumb {
+  position: relative;
+  }
+
+  .info {
+    background-color: fade(@white-base, 75%);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.4s ease-in-out 0s;
+    .name {
+      font-family: @font-playball;
+      font-size: 15px;
+    }
+  }
+}
+.testimonial-carousel {
+  .item {
+    .testimonial-wrapper {
+      background:#fff url("../images/bg-flower6.png") no-repeat scroll right bottom;
+    }
+  }
+}
+/*------------- RSVP --------------*/
+.rsvp-form {
+  .form-group {
+    color: @white-base;
+    label {
+      color: @white-base;
+    }
+    input {
+      color: @white-base;
+    }
+  }
+  .form-control {
+   color: @white-base;
+   background-color: fade(@black, 20%);
+  }
+}

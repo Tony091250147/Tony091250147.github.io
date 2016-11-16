@@ -174,7 +174,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yangzhou" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -257,12 +257,12 @@
       <option name="presentableId" value="Default" />
       <updated>1479099728803</updated>
       <workItem from="1479099730098" duration="7845000" />
-      <workItem from="1479184000668" duration="9937000" />
+      <workItem from="1479184000668" duration="10568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17782000" />
+    <option name="totallyTimeSpent" value="18413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1916" y="139" width="1916" height="1057" extended-state="6" />
